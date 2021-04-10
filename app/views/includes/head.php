@@ -8,7 +8,6 @@
 
 
     <!-- Upload css-bestanden -->
-    <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/fonts.css">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/style.css">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/historic.css">
     <!-- css leakage -->
@@ -20,6 +19,7 @@
     <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/cart.css">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/payment.css">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/infoPageView.css">
+    <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/index.css">
 
     <!-- Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>

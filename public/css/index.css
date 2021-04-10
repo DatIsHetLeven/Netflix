@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  color: white;
+}
+#index button{
+  width: 100px;
+  height: 35px;
+  color: #ffffff;
+  background-color: #e50914;
+  border: 0;
+  border-radius: 3px;
+  float: right;
+  margin-right: 20px;
+}
+#content{
+  width: auto;
+  margin-top: 250px;
+  text-align: center;
+}
+#indexButtonNav{
+  position: absolute;
+  top: 3%;
+  right: 3%
+}
+#content input{
+  height: 30px;
+  width: 250px;
+}
+#content button{
+  position: absolute;
+}
+#content2{
+  text-align: center;
+  margin-top: 300px;
+  border-top: 10px solid #303030;
+}

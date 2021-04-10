@@ -12,10 +12,10 @@ define('APPROOT',dirname((__DIR__)));
 define('ROOT',dirname(dirname(dirname(__FILE__))));
 
 //urlroot (dynamic links)
-define('URLROOT', 'http://localhost/haarlemfestival');
+define('URLROOT', 'http://localhost/Netflix');
 
 // sitename
-define('SITENAME', 'Haarlem Festival');
+define('SITENAME', 'Netflix Nederland');
 
 
 // constants for validations
