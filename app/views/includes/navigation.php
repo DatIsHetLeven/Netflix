@@ -5,7 +5,7 @@
 <nav>
   <section class="wrapper">
     <ul>
-      <li><a>Logo foto</li>
+      <img src="<?php echo URLROOT ?>/public/img/netflixLogo.jpg">
     </ul>
   </section>
 </nav>
