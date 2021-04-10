@@ -15,5 +15,5 @@ if(session_id() == ''){
     if (!isset($_SESSION["loggedInEmployee"])) $_SESSION["loggedInEmployee"] = null;
 }
 
-// een url object maken
+// een url object maken 
 $url = new Url();
