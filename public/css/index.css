@@ -5,7 +5,14 @@ body{
 h1{
   font-size: 2.75rem;
 }
-#index button{
+#index {
+    background-image: url("../img/movies.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+
+}
+
+#indexInfo button{
   width: 100px;
   height: 35px;
   color: #ffffff;
@@ -17,32 +24,72 @@ h1{
 }
 #content{
   width: auto;
-  margin-top: 250px;
+  /* margin-top: 250px; */
+  transform: translate(0%,50%);
   text-align: center;
+  margin-bottom: 400px;
 }
 #indexButtonNav{
   position: absolute;
   top: 3%;
   right: 3%
 }
-#content input{
-  height: 50px;
-  width: 400px;
-}
 #content button{
-  height: 55px;
-  width: 150px;
   position: absolute;
+  height: 55px;
+  border-radius: 0;
+  width: 150px;
+  transform: translate(-33%,174.7%);
 }
-#content2{
-  text-align: center;
-  margin-top: 200px;
+#content input{
+  transform: translate(-7%,170%);
+  height: 50px;
+  width: 450px;
+}
+#content2 , #content3{
+  background-color: black;
+  padding-bottom: 150px;
   border-top: 10px solid #303030;
 }
-#content2 h1, #content2 h2{
+#content2 h1{
+  width: 270px;
+  margin-left: 50px;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
-
+#content2 h2{
+  width: 35%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#content2 img{
+  width: 400px;
+  height: 300px;
+  margin-left: 50%;
+  margin-top: 0;
+  position: absolute;
+  transform: translate(10%, -100%);
+}
+#content3 h1{
+  text-align: center;
+  margin-top: 70px;
+}
+#content3 button{
+  text-align: left;
+  background-color:  grey;
+  color: white;
+  width: 70%;
+  height: 60px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  line-height: 350%;
+}
+.wrapper{
+  width: 10px;
+  height: 0px;
+}
 .wrapper img{
   width: 120px;
 }
