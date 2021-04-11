@@ -37,6 +37,9 @@ require APPROOT . '/views/includes/navigation.php';
   <button>Hoeveel kost Netflix?</button>
   <button>Waar kan ik kijken?</button>
   <button>Hoe kan ik opzeggen?</button>
+  <h3>Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te hernieuwen.</h3>
+  <input type="email" placeholder="E-mailadres"></input>
+  <button id="aanDeSlag">Aan de slag ></button>
 </section>
 
 <?php

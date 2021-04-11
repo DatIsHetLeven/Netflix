@@ -11,7 +11,6 @@ h1{
     background-size: 100% 700px;
 
 }
-
 #indexInfo button{
   width: 100px;
   height: 35px;
@@ -77,14 +76,43 @@ h1{
 }
 #content3 button{
   text-align: left;
-  background-color:  grey;
+  background-color:  #4d4d4d;
   color: white;
-  width: 70%;
+  width: 850px;
   height: 60px;
   display: flex;
   margin: 0 auto;
   margin-bottom: 8px;
   line-height: 350%;
+  font-size: 20px;
+}
+#content3 input{
+  position: absolute;
+  margin-left: 50%;
+  transform: translate(-80%,-60%);
+  height: 50px;
+  width: 450px;
+  margin-top: 170px;
+}
+#content3 h3{
+  position: absolute;
+  margin-left: 52%;
+  width: 800px;
+  transform: translate(-50%,-60%);
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#content3 #aanDeSlag{
+  background-color: #e50914;
+  position: absolute;
+  margin-left: 52%;
+  height: 55px;
+  border-radius: 0;
+  width: 150px;
+  line-height: 250%;
+  transform: translate(32%,249.5%);
+  float: right;
+  text-align: center;
 }
 .wrapper{
   width: 10px;
