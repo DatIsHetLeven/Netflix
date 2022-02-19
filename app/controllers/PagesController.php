@@ -9,5 +9,9 @@ class PagesController extends Autoloader {
         $this->view("pages/index");
     }
 
+    public function inloggen(){
+        $this->view("pages/inloggen");
+    }
+
 
 }

@@ -6,7 +6,8 @@ require APPROOT . '/views/includes/navigation.php';
 <main id="index">
 <section id="indexInfo">
   <section id="indexButtonNav">
-    <button>Inloggen</button>
+    <a href="/inloggen.php">
+    <button>Inloggen</button></a>
     <button>Nederlands</button>
   </section>
   <section id="content">
@@ -23,7 +24,7 @@ require APPROOT . '/views/includes/navigation.php';
   <h2>Kijk op smart-tv's, PlayStation, Xbox, Chromecast, Apple TV, blu-rayspelers en meer.</h2>
   <img src="<?php echo URLROOT ?>/public/img/kijkTv.jpg">
 </section>
-testest
+
 <section id="content2">
   <h1>Kijk overal</h1>
   <h2>Stream onbeperkt series en films op je telefoon, tablet, laptop en tv, zonder meer te betalen.</h2>
