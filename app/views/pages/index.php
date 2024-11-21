@@ -6,7 +6,8 @@ require APPROOT . '/views/includes/navigation.php';
 <main id="index">
 <section id="indexInfo">
   <section id="indexButtonNav">
-    <button>Inloggen</button>
+    <a href="/inloggen.php">
+    <button>Inloggen</button></a>
     <button>Nederlands</button>
   </section>
   <section id="content">
